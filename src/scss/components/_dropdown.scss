@@ -1,0 +1,37 @@
+.dropdown {
+  &__trigger {
+    background-color: transparent;
+    padding: 0.25rem;
+    border: 1px solid gray;
+    font-size: 0.75rem;
+
+    &:hover {
+      background: #efefef;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: -1px 0 0 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }
+
+  &__menu li {
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    color: #222;
+    padding: 5px 15px;
+  }
+  &__menu li:hover {
+    background-color: #bae2fc;
+  }
+}

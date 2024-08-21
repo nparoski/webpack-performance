@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "scss/vendors/global";
+
+@import "scss/custom-variables";
+
+@import "scss/base/global";
+@import "scss/components/global";
+@import "scss/utils/global";
+@import "scss/layouts/global";
+@import "scss/features/global";
+@import "scss/pages/global";
+@import "scss/themes/global";

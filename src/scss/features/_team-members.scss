@@ -1,0 +1,13 @@
+.team-members {
+  margin-bottom: 1rem;
+
+  &__container {
+    position: relative;
+    padding: 2rem 3rem;
+  }
+
+  &__item {
+    background-color: rgb(208, 208, 208);
+    padding: 1rem;
+  }
+}
